@@ -6,7 +6,7 @@ def mdm(dinero):
     return str(dinero),"Esta máquina acepta máximo $50","","0"
 
 def mrl(dinero):
-    return str(dinero),"Ya cuenta con el dinero suficiente para poder retirar cualquier rato","","0"
+    return str(dinero),"Ya cuenta con el dinero suficiente para poder retirar cualquier lata","","0"
 
 def mas5(dinero):
     dinero+=5
@@ -26,43 +26,43 @@ def mas50(dinero):
 
 def menos5(dinero):
     dinero-=5
-    return str(dinero),"","","0"
+    return str(dinero),"","","5"
 
 def menos10(dinero):
     dinero-=10
-    return str(dinero),"","","0"
+    return str(dinero),"","","10"
 
 def menos15(dinero):
     dinero-=15
-    return str(dinero),"","","0"
+    return str(dinero),"","","15"
 
 def menos20(dinero):
     dinero-=20
-    return str(dinero),"","","0"
+    return str(dinero),"","","20"
 
 def menos25(dinero):
     dinero-=25
-    return str(dinero),"","","0"
+    return str(dinero),"","","25"
 
 def menos30(dinero):
     dinero-=30
-    return str(dinero),"","","0"
+    return str(dinero),"","","30"
 
 def menos35(dinero):
     dinero-=35
-    return str(dinero),"","","0"
+    return str(dinero),"","","35"
 
 def menos40(dinero):
     dinero-=40
-    return str(dinero),"","","0"
+    return str(dinero),"","","40"
 
 def menos45(dinero):
     dinero-=45
-    return str(dinero),"","","0"
+    return str(dinero),"","","45"
 
 def menos50(dinero):
     dinero-=50
-    return str(dinero),"","","0"
+    return str(dinero),"","","50"
 
 def rmenos40(dinero):
     dinero-=40
