@@ -235,7 +235,7 @@ class MaquinaExpendedoraWindow(QWidget, Ui_Maquinaexpendedora_form):
                 "sd":"q0"
             }
         }
-        self.alertas_label.setText("")
+        
 
         self.setupUi(self)
         self.Moneda5_pushButton.clicked.connect(self.mas5)
@@ -248,7 +248,7 @@ class MaquinaExpendedoraWindow(QWidget, Ui_Maquinaexpendedora_form):
         self.Coca355_pushButton.clicked.connect(self.c355)
         self.Redbull_pushButton.clicked.connect(self.redBull)
         
-
+        self.alertas_label.setText("")
         
 
     @Slot()
