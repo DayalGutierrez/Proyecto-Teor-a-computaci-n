@@ -235,6 +235,7 @@ class MaquinaExpendedoraWindow(QWidget, Ui_Maquinaexpendedora_form):
                 "sd":"q0"
             }
         }
+        self.alertas_label.setText("")
 
         self.setupUi(self)
         self.Moneda5_pushButton.clicked.connect(self.mas5)
