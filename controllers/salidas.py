@@ -20,6 +20,10 @@ def mas20(dinero):
     dinero+=20
     return str(dinero),"","","0"
 
+def mas50(dinero):
+    dinero+=50
+    return str(dinero),"","","0"
+
 def menos5(dinero):
     dinero-=5
     return str(dinero),"","","0"
@@ -71,6 +75,9 @@ def c355menos20(dinero):
 def c235menos15(dinero):
     dinero-=15
     return str(dinero),"","Coca-Cola 235 ml","0"
+
+def n(dinero):
+    return str(dinero),"","","0"
 
 
 

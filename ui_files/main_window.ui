@@ -229,12 +229,12 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="Billete20_pushButton">
+   <widget class="QPushButton" name="billete20_pushButton">
     <property name="geometry">
      <rect>
       <x>200</x>
       <y>20</y>
-      <width>181</width>
+      <width>171</width>
       <height>91</height>
      </rect>
     </property>
@@ -258,7 +258,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="billete20_pushButton">
+   <widget class="QPushButton" name="billete50_pushButton">
     <property name="geometry">
      <rect>
       <x>400</x>
